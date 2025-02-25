@@ -23,7 +23,7 @@ Def:
       - TCP (Transmission Control Protocol): Provides reliable communication with acknowledgment, sequencing, and retransmission of lost packets.
       - UDP (User Datagram Protocol): Offers faster but unreliable data transfer, suitable for real-time applications like streaming.
   **Example:** When you download a file, the Transport Layer ensures that all pieces of the file arrive in the correct order.
----
+----------------
 
 **Node-to-Node Connectivity**
 While end-to-end communication is the ultimate goal, it is achieved through node-to-node communication at the lower layers of the OSI model (Layers 1–3). Each intermediate node (like switches, routers, or other devices) plays a role in forwarding the data until it reaches the final destination.
